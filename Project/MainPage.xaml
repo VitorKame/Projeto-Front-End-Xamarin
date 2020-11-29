@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:iVans"
+             x:Class="iVans.MainPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#55cbf7" Padding="20" Spacing="20">
+
+                <Image Source="Logo.png"
+           VerticalOptions="Start"
+           HorizontalOptions="Center"
+           WidthRequest="200"
+           HeightRequest="200"/>
+
+                <Entry x:Name="LoginCliente" Placeholder="E-mail" TextColor="Black"/>
+                <Entry x:Name="SenhaCliente" Placeholder="Senha" IsPassword="True" TextColor="Black"/>
+
+
+                <Button x:Name="Logar"
+                    Text="LOGAR"
+                    Clicked="Button_OnClicked"
+                    TextColor="White"
+                    BackgroundColor="#389cc8"
+                    BorderColor="White"/>
+
+                <Button x:Name="OutrasOpcoes" 
+                    Text="Cadastrar" 
+                    TextColor="#0000bf"
+                    Clicked="Button_OnClickedII" 
+                    BackgroundColor="#55cbf7"
+                    BorderColor="#55cbf7"
+                    VerticalOptions="End"
+                    HorizontalOptions="Start"/>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

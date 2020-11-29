@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="iVans.CadSelect">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#55cbf7" Padding="20" Spacing="20">
+
+            <Button x:Name="btn_emp" Text="Empresa" Clicked="btn_emp_Click" TextColor="White"
+                    BackgroundColor="#389cc8"
+                    BorderColor="White"/>
+            <Button x:Name="btn_resp" Text="Responsável" Clicked="btn_resp_Click" TextColor="White"
+                    BackgroundColor="#389cc8"
+                    BorderColor="White"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
